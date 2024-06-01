@@ -1,0 +1,16 @@
+{
+  "name": "express-prisma",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "api:dev": "node --watch ./src/server.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.14.0",
+    "axios": "^1.6.8",
+    "express": "^4.19.2",
+    "prisma": "^5.14.0"
+  }
+}
